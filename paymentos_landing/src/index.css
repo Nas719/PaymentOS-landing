@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(./vendor/fonts/fonts.css);
+@import url(./vendor/normalize.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url(./components/header/header.css);
+@import url(./components/header/__logo/header__logo.css);
+@import url(./components/header/__list/header__list.css);
+@import url(./components/header/__list-item/header__list-item.css);
+@import url(./components/header/__list-item-img/header__list-item-img.css);
+@import url(./components/header/__button-open/header__button-open.css);
+@import url(./components/header/__button-text/header__button-text.css);
+
+@import url(./components/payment/payment.css);
+@import url(./components/payment/__title/payment__title.css);
+@import url(./components/payment/__subtitle/payment__subtitle.css);
+@import url(./components/payment/__button-container/payment__button-container.css);
+@import url(./components/payment/__button-app/payment__button-app.css);
+@import url(./components/payment/__button-demo/payment__button-demo.css);
+@import url(./components/payment/__text-lorem/payment__text-lorem.css);
+
+body {
+    font-family: 'Metropolis', 'Arial', sans-serif;
 }

@@ -1,0 +1,8 @@
+.header__list-item {
+    list-style-type: none;
+    font-weight: 600;
+    /*font-size: 14px;*/
+    /*line-height: 14px;*/
+    color: #5E5C6C;
+    margin-right: 50px;
+}
