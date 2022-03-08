@@ -8,7 +8,6 @@ import contact from '../../images/contact.svg';
 const Steps = () => {
     return (
         <div className="steps">
-            <div className="steps_box-one">
                 <div className="steps__info">
                     <h4 className="steps__info-title">What makes us special 🔥</h4>
                     <p className="steps__info-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -25,8 +24,6 @@ const Steps = () => {
                     <h4 className="steps__title">Step 1</h4>
                     <p className="steps__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-            </div>
-            <div className="steps_box-two">
                 <div className="steps__info steps__info-border">
                     <div className="circle"></div>
                     <img className="steps__image-icon" src={account} alt="#"/>
@@ -45,7 +42,6 @@ const Steps = () => {
                     <h4 className="steps__title">Step 1</h4>
                     <p className="steps__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-            </div>
         </div>
     );
 };
