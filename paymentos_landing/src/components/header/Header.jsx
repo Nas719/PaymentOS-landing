@@ -1,7 +1,6 @@
 import React from 'react';
 import vectorTwitterPath from '../../images/twitter.svg';
 import vectorDiscordPath from '../../images/discord.svg';
-import './__logo/header__logo.css';
 
 const Header = () => {
     return (
