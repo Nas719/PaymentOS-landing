@@ -39,6 +39,23 @@
     border: 0;
     margin-right: 19px;
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 13px;
+    position: relative;
+}
+
+.payment__button-app:hover {
+    opacity: 0.8;
+    background-color: #235dec;
+}
+
+.payment__iconup {
+    position: absolute;
+    right: 14.5px;
+    top: 10.75px;
 }
 
 .payment__button-demo {
@@ -47,6 +64,13 @@
     height: 40px;
     border: 0;
     cursor: pointer;
+    background: bottom;
+}
+
+.payment__button-demo:hover {
+    opacity: 0.8;
+    background-color: #235dec;
+    color: #FFFFFF;
 }
 
 .payment__subtitle {

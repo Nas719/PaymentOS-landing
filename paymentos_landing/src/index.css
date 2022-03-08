@@ -5,6 +5,8 @@
 
 @import url(./components/payment/payment.css);
 
+@import url(./components/steps/steps.css);
+
 body {
     font-family: 'Metropolis', 'Arial', sans-serif;
 }

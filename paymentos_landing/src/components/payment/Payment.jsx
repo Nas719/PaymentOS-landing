@@ -1,6 +1,6 @@
 import React from 'react';
 import imageHeader from '../../images/image_block2.png';
-import vectorUpPath from '../../images/up.svg';
+import vectorUpPath from '../../images/north_east_black_24dp 4.svg';
 
 const Payment = () => {
     return (
@@ -10,6 +10,7 @@ const Payment = () => {
             <div className="payment__button-container">
                 <button className="payment__button-app">
                     <p className="header__button-text">Open App</p>
+                    <img className="payment__iconup" src={vectorUpPath} alt=""/>
                 </button>
                 <button className="payment__button-demo">Watch Demo</button>
             </div>

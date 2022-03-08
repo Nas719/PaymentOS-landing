@@ -8,15 +8,21 @@ const Header = () => {
             <p className="header__logo">Logo</p>
             <ul className="header__list">
                 <li className="header__list-item">
-                    Blog
+                    <a className="header__link" href="#">
+                        Blog
+                    </a>
                 </li>
                 <li className="header__list-item">
-                    <img className="header__list-item-img" src={vectorTwitterPath} alt="twitter"/>
-                    Twitter
+                    <a className="header__link" href="#">
+                        <img className="header__list-item-img" src={vectorTwitterPath} alt="twitter"/>
+                        Twitter
+                    </a>
                 </li>
                 <li className="header__list-item">
-                    <img className="header__list-item-img" src={vectorDiscordPath} alt="discord"/>
-                    Discord
+                    <a className="header__link" href="#">
+                        <img className="header__list-item-img" src={vectorDiscordPath} alt="discord"/>
+                        Discord
+                    </a>
                 </li>
                 <button className="header__button-open">
                     <p className="header__button-text">Open App</p>

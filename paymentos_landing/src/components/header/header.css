@@ -26,7 +26,6 @@
 .header__list-item {
     list-style-type: none;
     font-weight: 600;
-    color: #5E5C6C;
     margin-right: 50px;
     cursor: pointer;
 }
@@ -34,6 +33,15 @@
 .header__list-item-img {
     margin-right: 8px;
     vertical-align: middle;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #5E5C6C;
+}
+
+.header__link:hover {
+    color: #2962EF;
 }
 
 .header__button-open {
@@ -44,6 +52,11 @@
     height: 40px;
     border: 0;
     cursor: pointer;
+}
+
+.header__button-open:hover {
+    opacity: 0.8;
+    background-color: #235dec;
 }
 
 .header__button-text {
