@@ -1,3 +1,36 @@
 .cards {
+    padding-bottom: 152px;
+}
 
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    gap: 30px 20px;
+}
+
+.card-image {
+    width: 100%;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.card-image:hover {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.cards-title {
+    font-size: 36px;
+    line-height: 44px;
+    color: #232427;
+    margin-top: 142px;
+    margin-bottom: 15px;
+}
+
+.cards-subtitle {
+    font-size: 14px;
+    line-height: 14px;
+    color: #5E5C6C;
+    margin-top: 0;
+    margin-bottom: 45px;
 }
