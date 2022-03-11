@@ -1,9 +1,7 @@
 .steps {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 180px;
-    padding-right: 180px;
-    margin-top: 240px;
+    margin-top: 180px;
     row-gap: 50px;
     column-gap: 20px;
 }
@@ -17,7 +15,7 @@
 .steps__image-icon {
     position: absolute;
     left: 63px;
-    bottom: 309px;
+    bottom: 281px;
 }
 
 .circle {
@@ -30,8 +28,8 @@
 }
 
 .steps__info {
-    width: 481px;
-    height: 427px;
+    width: 413px;
+    height: 400px;
     border: 1px solid #e3e3e9;
     box-sizing: border-box;
     border-radius: 8px;

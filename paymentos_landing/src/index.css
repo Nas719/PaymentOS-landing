@@ -7,6 +7,14 @@
 
 @import url(./components/steps/steps.css);
 
+@import url(./components/world/world.css);
+
+@import url(./components/cards/cards.css);
+
 body {
+    min-width: 320px;
+    max-width: 1280px;
+    font-weight: 400;
+    margin: 0 auto;
     font-family: 'Metropolis', 'Arial', sans-serif;
 }

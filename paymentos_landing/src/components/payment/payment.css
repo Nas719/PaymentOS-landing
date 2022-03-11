@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-left: 180px;
 }
 
 .payment__title {
@@ -121,5 +120,5 @@
 .payment__image {
     position: absolute;
     right: 0;
-    width: 55%;
+    top: 16px;
 }
