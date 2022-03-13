@@ -1,6 +1,8 @@
 .world {
     background: #FAF9FA;
     margin-top: 110px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .world-title {
