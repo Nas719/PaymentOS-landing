@@ -4,6 +4,7 @@ import Payment from "../payment/Payment";
 import Steps from "../steps/Steps";
 import World from "../world/World";
 import Cards from "../cards/Cards";
+import Footer from "../footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Steps />
           <World />
           <Cards />
+          <Footer />
       </>
   );
 }

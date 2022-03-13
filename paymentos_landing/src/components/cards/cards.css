@@ -3,20 +3,69 @@
 }
 
 .cards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-    gap: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.card-image {
-    width: 100%;
+.card-box-grey {
+    width: 305px;
+    height: 273px;
+    background: #FAFBFD;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-bottom: 30px;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
 
-.card-image:hover {
+.card-box-white {
+    width: 305px;
+    height: 273px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 20px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.card-box-white:nth-child(4) {
+    margin-right: 0;
+}
+
+.card-box-white:nth-child(7) {
+    margin-right: 0;
+}
+
+.card-color {
+    width: 255px;
+    height: 217px;
+}
+
+.card-image {
+    width: 265px;
+    height: 151px;
+    padding-top: 24px;
+    padding-left: 20px;
+}
+
+.card-box-grey:hover {
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
+}
+
+.card-box-white:hover {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.card-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #232427;
+    padding-left: 20px;
+    margin-top: 15px;
 }
 
 .cards-title {
@@ -33,4 +82,15 @@
     color: #5E5C6C;
     margin-top: 0;
     margin-bottom: 45px;
+}
+
+.card-twiticon {
+    padding-left: 20px;
+    margin-right: 13px;
+    width: 16px;
+    height: 16px;
+}
+
+.card-twiticon-in {
+    width: 6%;
 }
