@@ -17,24 +17,22 @@ const Footer = () => {
                 <p className="footer-subscribe">Subscribe to our newsletter</p>
                 <div className="footer-search">
                     <input className="footer-input" placeholder="Email Address"/>
-                    <button className="footer-telegram-icon">
-                        <img src={telegram}/>
-                    </button>
+                    <button className="footer-telegram-button" type="button"></button>
                 </div>
                 <div className="footer-text">
                     We will send you updates on the latest news and features. No spam.
                 </div>
-                <div className="footer-link-icon">
-                    <div className="footer-icons">
+                <div className="footer-link-icons">
+                    <div className="footer-icon">
                         <img className="icon-size" src={youtube}/>
                     </div>
-                    <div className="footer-icons">
+                    <div className="footer-icon">
                         <img className="icon-size" src={vectorTwitterPath}/>
                     </div>
-                    <div className="footer-icons">
+                    <div className="footer-icon">
                         <img className="icon-size" src={linkedin}/>
                     </div>
-                    <div className="footer-icons">
+                    <div className="footer-icon">
                         <img className="icon-size" src={vectorDiscordPath}/>
                     </div>
                 </div>
